@@ -4,4 +4,3 @@ To Preview my portfolio:
 https://647b47cb8261880734cdbfd3--vermillion-manatee-ab0681.netlify.app/
 
 
-![componenets](https://github.com/harrishmarro/Portfolio/assets/74762783/7cbd1fc8-ed03-465f-95cc-5c768583bd0e)
