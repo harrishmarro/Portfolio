@@ -8,21 +8,21 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  blender,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
+  unity,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Krypt,
   threejs,
+  nextjs,
+  Snipper,
+  TIEMA,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "VR Application Developer",
     icon: backend,
   },
   {
@@ -81,8 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Blender",
+    icon: blender,
   },
   {
     name: "Tailwind CSS",
@@ -91,6 +91,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name:"Next JS",
+    icon: nextjs,
   },
   {
     name: "MongoDB",
@@ -109,8 +113,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "unity",
+    icon: unity,
   },
 ];
 
@@ -188,16 +192,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Krypt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web3.0 application that utilizes React and Solidity for Ethereum transactions. This application enables users to interact with the Ethereum blockchain, perform transactions, and manage their Ether assets.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
@@ -205,50 +209,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Krypt,
+    source_code_link: "https://github.com/harrishmarro/web3.0",
   },
   {
-    name: "Job IT",
+    name: "TIEMA",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that is developed for the college to track and record the internships attended by the students.It enables the sudent to submit their report and certificates for their credit.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: TIEMA,
+    source_code_link: "https://github.com/harrishmarro/TIEMA-project",
   },
   {
-    name: "Trip Guide",
+    name: "Snipper",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Social Media Web Application that enables the users to upload and view videos and post shared in it.It is designed in a responsive way so that user can use in any device. ",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Snipper,
+    source_code_link: "https://github.com/harrishmarro/snipper",
   },
 ];
 
